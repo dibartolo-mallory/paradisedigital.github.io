@@ -1,0 +1,34 @@
+/* Styleguide colors
+ ----------------------------------*/
+
+$sg-main: black; 
+$sg-secondary: white; 
+$sg-accent: pink; 
+
+
+
+/* Client colors
+ ----------------------------------*/
+
+
+
+
+$primary: #51C4CD; 
+$secondary: #FF5733; 
+$accent: #DCDCDC;
+$type: #333333; 
+
+
+
+.footer-section {
+	display: flex;
+	flex-direction: row;
+
+}
+
+.footer-icon {
+	margin-left: 5px; 
+	width: 28%;
+	height: 28%;
+}
+

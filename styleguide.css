@@ -1,0 +1,297 @@
+/* Styleguide colors
+ ----------------------------------*/
+/* Client colors
+ ----------------------------------*/
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display&display=swap");
+.footer-section {
+  display: flex;
+  flex-direction: row; }
+
+.footer-icon {
+  margin-left: 5px;
+  width: 28%;
+  height: 28%; }
+
+/* Styleguide fonts
+ ----------------------------------
+
+
+
+/* Client fonts
+ ----------------------------------*/
+/* Styleguide header stylings
+---------------------------------------*/
+.header {
+  max-width: 100%;
+  padding: 5%;
+  display: flex;
+  flex-direction: row;
+  background-color: transparent !important;
+  align-items: center;
+  justify-content: space-between; }
+
+.header h1 {
+  color: black;
+  font-family: "Montserrat", sans-serif; }
+
+.sg-nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2em; }
+.sg-nav li a {
+  color: black;
+  text-decoration: none;
+  margin-left: 10px; }
+
+/*Purpose and target audience
+-----------------------------------------*/
+.about {
+  display: flex;
+  flex-direction: column; }
+
+.about-content {
+  margin: 8% auto; }
+  .about-content h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: 100;
+    color: #333333;
+    padding-bottom: 20px;
+    text-align: center;
+    border-bottom: 3px;
+    border-bottom-style: double;
+    border-bottom-color: red; }
+  .about-content p {
+    font-family: "Open Sans", sans-serif;
+    color: "Open Sans", sans-serif;
+    padding: 0 80px;
+    text-align: center; }
+
+.purpose, .audience {
+  margin: 0 auto; }
+
+/* Sitemap
+------------------------------------------*/
+.sitemap {
+  background-color: "Playfair Display", serif;
+  height: auto;
+  padding: 10px; }
+  .sitemap h2 {
+    font-family: "Montserrat", sans-serif;
+    color: #333333;
+    margin-left: 60px; }
+
+.sitemap-wrapper {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  background-color: white; }
+
+.sitemap-image {
+  width: 100%;
+  margin: 0 auto; }
+
+/* Branding
+-----------------------------------*/
+.branding {
+  height: auto; }
+
+.logo-wrapper {
+  width: 80%;
+  margin: 0 auto; }
+
+.logo {
+  width: 100%; }
+
+.colors-grid {
+  display: flex;
+  flex-direction: row;
+  height: 50%;
+  justify-content: space-around;
+  width: 80%;
+  margin: 0 auto; }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .colors-grid {
+      flex-direction: column;
+      align-items: center; } }
+
+.color {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%; }
+
+.color1 {
+  background-color: red; }
+
+.color2 {
+  background-color: orange; }
+
+.color3 {
+  background-color: "Playfair Display", serif; }
+
+.color4 {
+  background-color: #333333; }
+
+.type-grid {
+  display: flex;
+  flex-direction: row;
+  margin: 50px auto; }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .type-grid {
+      flex-direction: column; } }
+
+.type {
+  width: 33%;
+  text-align: center;
+  padding: 10px; }
+  .type h2 {
+    font-size: 2em; }
+  .type h4 {
+    font-size: 1.2em; }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .type {
+      width: 80%;
+      margin: 0 auto; } }
+
+.type-one h2, .type-one h4 {
+  font-family: "Montserrat", sans-serif;
+  color: #333333;
+  border: none !important; }
+
+.type-two h2, .type-two h4 {
+  font-family: "Open Sans", sans-serif;
+  color: #333333;
+  border: none !important; }
+
+.type-three h2, .type-three h4 {
+  font-family: "Playfair Display", serif;
+  color: #333333;
+  border: none !important; }
+
+.button-grid {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin: 20px auto;
+  justify-content: space-around; }
+
+.color-button {
+  background-color: red;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  width: 20%;
+  font-size: 1.2em;
+  box-shadow: 2.5px 2.5px 7px #333333; }
+
+.color-button:hover {
+  background-color: orange;
+  color: red;
+  cursor: pointer; }
+
+.color-button:active {
+  background-color: "Playfair Display", serif;
+  color: red;
+  cursor: pointer; }
+
+/* Elements
+--------------------------------*/
+.elements {
+  background-color: orange;
+  padding-top: 15px; }
+
+.elements-wrapper {
+  background-color: white;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 40px; }
+
+.nav-wrapper {
+  width: 80%;
+  margin: 0 auto;
+  backgroud-color: pink; }
+
+.elements-headings {
+  font-family: "Montserrat", sans-serif;
+  color: #333333;
+  font-size: 1.75em; }
+
+.nav-primary, .nav-secondary {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  font-family: "Open Sans", sans-serif;
+  width: 100%;
+  margin: 0 auto; }
+  .nav-primary li, .nav-secondary li {
+    margin: 0 10px;
+    font-size: 1.5em; }
+  .nav-primary a, .nav-secondary a {
+    text-decoration: none;
+    color: red; }
+  .nav-primary a:hover, .nav-secondary a:hover {
+    color: orange;
+    text-decoration: underline; }
+  .nav-primary a:active, .nav-secondary a:active {
+    color: "Playfair Display", serif; }
+
+.nav-secondary {
+  background-color: red; }
+  .nav-secondary li {
+    padding: 8px; }
+  .nav-secondary a {
+    color: "Playfair Display", serif; }
+  .nav-secondary a:hover {
+    text-decoration: none; }
+
+/* Media
+--------------------------------*/
+.media {
+  background-color: "Playfair Display", serif;
+  padding-top: 15px;
+  height: 100vh; }
+
+.images-grid {
+  background-color: white;
+  width: 80%;
+  height: 400px;
+  margin: 0 auto; }
+
+/* Overal structure and styling
+-----------------------------------------*/
+body, html {
+  scroll-behavior: smooth;
+  height: 100%; }
+
+body {
+  max-width: 100%;
+  margin: 0 auto; }
+
+section {
+  height: 80vh;
+  max-width: 80%;
+  margin: 0 auto; }
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: 100;
+  color: #333333;
+  padding-bottom: 20px;
+  text-align: center;
+  border-bottom: 3px;
+  border-bottom-style: double;
+  border-bottom-color: red; }
+
+/*# sourceMappingURL=styleguide.css.map */

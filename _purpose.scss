@@ -1,0 +1,55 @@
+/*Purpose and target audience
+-----------------------------------------*/
+
+
+.about {
+    display: flex; 
+    flex-direction: column;
+}
+
+.about-content {
+   
+   
+
+    margin: 3% auto; 
+     
+    
+    h2 {
+        font-family: $headings; 
+        font-size: 2em; 
+        text-transform: uppercase; 
+        letter-spacing: 5px; 
+        font-weight: 100; 
+        color: $type; 
+        padding-bottom: 20px; 
+        text-align: center; 
+        border-bottom: 3px; 
+        border-bottom-style: double; 
+        border-bottom-color: $primary; 
+        
+        
+       
+        
+    }
+    
+    p {
+        font-family: $copy; 
+        color: $copy; 
+        padding: 0 80px; 
+        text-align: center; 
+       
+    }
+}
+
+.purpose, .audience {
+    
+    margin: 0 auto; 
+    
+    
+    
+}
+
+.audience {
+    margin-bottom: 30px; 
+}
+

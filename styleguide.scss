@@ -1,0 +1,70 @@
+@import "colors"; 
+@import "typography";
+@import "header"; 
+@import "purpose"; 
+@import "sitemap"; 
+@import "branding"; 
+@import "elements"; 
+@import "media"; 
+
+
+
+/* Overal structure and styling
+-----------------------------------------*/
+body, html {
+    scroll-behavior: smooth;
+     height: 100%;
+}
+body {
+    max-width: 100%; 
+    margin: 0 auto; 
+    
+}
+
+section {
+    //height: 80vh;
+    max-width: 80%; 
+    margin: 0 auto; 
+}
+
+h2 {
+    font-family: $headings; 
+    font-size: 2em; 
+    text-transform: uppercase; 
+    letter-spacing: 5px; 
+    font-weight: 100; 
+    color: $type; 
+    padding-bottom: 20px; 
+    text-align: center; 
+    border-bottom: 3px; 
+    border-bottom-style: double; 
+    border-bottom-color: $primary; 
+}
+
+h3 {
+    
+    font-family: $copy; 
+    font-size: 1.2em; 
+  
+    letter-spacing: 3px; 
+    font-weight: 100; 
+    color: $type; 
+
+    
+}
+
+h4, h5 {
+    
+    font-family: $copy; 
+    font-size: 1em; 
+  
+    letter-spacing: 3px; 
+    font-weight: 100; 
+    color: $type; 
+
+    
+}
+
+
+
+
